@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#" class="logo"><i class="fa-solid fa-moon"></i> Astar </a>
+
+        <nav class="navbar">
+            <div id="close-navbar" class="fas fa-times"></div>
+            <a href="Home.html"> Home</a>
+            <a href="about.html">About</a>
+            <div class="dropdown">
+                <a class="dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Astrology
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="Astrology.html">Basic Astrology</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="shop.html">Shop</a></li>
+                </ul>
+              </div>
+            <a href="Contact.html">Contact</a>
+        </nav>
+
+        <div class="icons">
+            <div id="account-btn" class="fas fa-user"></div>
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+    </header>
+
+    <div class="account-form">
+
+        <div id="close-form" class="fas fa-times"></div>
+
+        <div class="buttons">
+            <span class="btn active login-btn">Login</span>
+            <span class="btn register-btn">Register</span>
+        </div>
+        <form class="login-form active" action="">
+
+            <h3>Login Now</h3>
+
+            <input type="email" placeholder="Enter your email" class="box">
+            <input type="password" placeholder="Enter your password" class="box">
+
+            <div class="flex">
+                <input type="checkbox" id="remember-me" name="">
+                <label for="remember-me">remember-me</label>
+                <a href="#">forgot password?</a>
+            </div>
+            <input type="submit" value="login now" class="btn">
+        </form>
+
+        <form class="register-form" action="">
+
+            <h3>Register Now</h3>
+
+            <input type="email" placeholder="Enter your email" class="box">
+            <input type="password" placeholder="Enter your password" class="box">
+            <input type="password" placeholder="Confirm your password" class="box">
+            <input type="submit" value="register now" class="btn">
+        </form>
+    </div>
+
+    <!-- home-slide start -->
+
+    <section class="home">
+
+        <div class="swiper home-slider">
+
+            <div class="swiper-wrapper">
+
+                <section class="swiper-slide slide"
+                    style="background: url(image/planet.jpg) no-repeat;">
+
+                    <div class="content">
+                        <h3>Welcome to Astar</h3>
+                        <p>Learn about astrology, zodiac signs, retrogrades, and more! 
+                            Your world becomes clear once you understand how the universe influences it.your journey</p>
+                            <a href="#" class="btn">Start your journey</a>
+                    </div>
+                </section>
+
+                <section class="swiper-slide slide"
+                    style="background: url(image/background2.jpg) no-repeat;">
+
+                    <div class="content">
+                        <h3>Welcome to Astar</h3>
+                        <p>Learn about astrology, zodiac signs, retrogrades, and more! 
+                            Your world becomes clear once you understand how the universe influences it.</p>
+                        <a href="#" class="btn">Start your journey</a>
+                    </div>
+                </section>
+
+
+                <section class="swiper-slide slide"
+                    style="background: url(image/background3.jpg) no-repeat;">
+
+                    <div class="content">
+                        <h3>Welcome to Astar</h3>
+                        <p>Learn about astrology, zodiac signs, retrogrades, and more! 
+                            Your world becomes clear once you understand how the universe influences it.</p>
+                        <a href="#" class="btn">Start your journey</a>
+                    </div>
+                </section>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!-- home-slide end -->
+
+    <!-- art of astrology start -->
+
+    <section class="astro">
+
+        <h1 class="heading">The Art of Astrology</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="image/time.png">
+                <h3>The best Time</h3>
+                <p>Find the best moment for your project - with the new
+                    electional horoscope.
+                </p>
+            </div>
+
+            <div class="box">
+                <img src="image/free-horo.png">
+                <h3>Free Horoscope</h3>
+                <p>Find all the free horoscope: Personality, Forecast, Love and Relationship
+                    and much more.
+                </p>
+            </div>
+
+            <div class="box">
+                <img src="image/daily-horo.png">
+                <h3>Daily Horoscope</h3>
+                <p>Your individual topics for each day! With the Love Horoscope and the
+                    Celestial Events.
+                </p>
+            </div>
+
+            <div class="box">
+                <img src="image/birth.png">
+                <h3>Charts and Calculations</h3>
+                <p>For Astrologers: Chart Drawings, Ephemeris, Data Collections and more.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- art of astrology end -->
+
+    <!-- star signs in web  -->
+    <section class="topics">
+
+        <h1 class="heading">Twelve Zodiac Signs</h1>
+
+        <div class="swiper star-signs-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="image/Aries.png" alt="">
+                        <h3>Aries</h3>
+                    </div>
+                    <div class="content">
+                        <h3>Aries</h3>
+                        <p>Aries is the first sign of the zodiac, and that's pretty much how those born under this sign see themselves: first. 
+                            Aries are the leaders of the pack, first in line to get things going.
+                        </p>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="image/Taurus.png" alt="">
+                        <h3>Taurus</h3>
+                    </div>
+                    <div class="content">
+                        <h3>Taurus</h3>
+                        <p>Taurus, the second sign of the zodiac and the ruler of the second house, is all about reward. 
+                            Unlike the Aries love of the game, the typical Taurus personality loves the rewards of the game.
+                        </p>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="image/Gemini.png" alt="">
+                        <h3>Gemini</h3>
+                    </div>
+                    <div class="content">
+                        <h3>Gemini</h3>
+                        <p>Gemini is the third sign of the zodiac, and those born under this sign will be quick to tell you all about it.
+                            Ruling the third house, the Gemini-born are intellectually inclined, forever probing people and places in search of information.
+                        </p>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="image/Cancer.png" alt="">
+                        <h3>Cancer</h3>
+                    </div>
+                    <div class="content">
+                        <h3>Cancer</h3>
+                        <p>Cancer, the fourth sign of the zodiac, is all about home. 
+                            Those born under this horoscope sign are 'roots' kinds of people,
+                             and take great pleasure in the comforts of home and family.
+                        </p>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="image/Leo.png" alt="">
+                        <h3>Leo</h3>
+                    </div>
+                    <div class="content">
+                        <h3>Leo</h3>
+                        <p>Leo is the fifth sign of the zodiac. These folks are impossible to miss since they love being center stage. 
+                            Making an impression is Job #1 for Leos, and when you consider their personal magnetism, you see the job is quite easy. 
+                        </p>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="image/Virgo.png" alt="">
+                        <h3>Virgo</h3>
+                    </div>
+                    <div class="content">
+                        <h3>Virgo</h3>
+                        <p>Virgo is the sixth sign of the zodiac, to be exact, and that's the way Virgos like it: exacting. 
+                            Those born under this horoscope sign are forever the butt of jokes 
+                            for being so picky and critical (and they can be), but their 'attention to detail' is for a reason: to help others.
+                        </p>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="image/Libra.png" alt="">
+                        <h3>Libra</h3>
+                    </div>
+                    <div class="content">
+                        <h3>Libra</h3>
+                        <p>Libra is the seventh sign of the zodiac, and it's at this point in the zodiac that we start to see a shift. While the 
+                            first six signs of the zodiac focus on the individual, 
+                            the last six focus on the individual's contact with others and with the world. 
+                        </p>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="image/Scorpio.png" alt="">
+                        <h3>Scorpio</h3>
+                    </div>
+                    <div class="content">
+                        <h3>Scorpio</h3>
+                        <p>Scorpio is the eighth sign of the zodiac, and that shouldn't be taken lightly—nor should Scorpios! 
+                            Those born under this sign are dead serious in their mission to learn about others.
+                        </p>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="image/Sagittarius.png" alt="">
+                        <h3>Sagittarius</h3>
+                    </div>
+                    <div class="content">
+                        <h3>Sagittarius</h3>
+                        <p>Sagittarius, the ninth sign of the zodiac, is the home of the wanderers of the zodiac. It's not a mindless ramble for
+                             these folks, either. 
+                            Sags are truth-seekers, and the best way for them to do this is to hit the road, talk to others and get some answers.
+                        </p>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="image/Capricorn.png" alt="">
+                        <h3>Capricorn</h3>
+                    </div>
+                    <div class="content">
+                        <h3>Cappricorn</h3>
+                        <p>Capricorn, the tenth sign and mountain goat of the zodiac, is all about hard work. Those born under this sign are more than 
+                            happy to put in a full day at the office, realizing that it will likely take a lot of those days to get to the top. 
+                        </p>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="image/Aquarius.png">
+                        <h3>Aquarius</h3>
+                    </div>
+                    <div class="content">
+                        <h3>Aquarius</h3>
+                        <p>Aquarius is the eleventh sign of the zodiac, and Aquarians are the perfect representatives for the Age of Aquarius. 
+                            Those born under this horoscope sign have the social conscience needed to carry us into the new millennium. 
+                        </p>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="image/Pisces.png" alt="">
+                        <h3>Pisces</h3>
+                    </div>
+                    <div class="content">
+                        <h3>Pisces</h3>
+                        <p>Pisces is the twelfth sign of the zodiac, and it is also the final sign in the zodiacal cycle. 
+                            Hence, this sign brings together many of the characteristics of the eleven signs that have come before it.
+                        </p>
+                        <a href="#" class="btn">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- hot topic in web end -->
+
+    <!-- news start -->
+    `<section class="news">
+        <h1 class="heading">New Articles</h1>
+        <div class="articles-container">
+            
+            <div class="articles">
+                <a href="https://www.astrology.com/article/winter-solstice-2023/">
+                <div class="image">
+                    <img src="image/winter-solace.png">
+                </div>
+                <div class="content">
+                    <h4>WINTER SOLSTICE 2023: ASTROLOGY, TAROT & CANDLE MAGICK TO ASSIST YOUR REBIRTH!</h4>
+                </div>
+                </a>
+            </div>
+
+            <div class="articles">
+                <a href="#">
+                <div class="image">
+                    <img src="image/sport-predict.png">
+                </div>
+                <div class="content">
+                    <h4>THIS WEEK’S SPORTS PREDICTIONS: DECEMBER 4– DECEMBER 10, 2023</h4>
+                </div>
+                </a>
+            </div>
+
+            <div class="articles">
+                <a href="https://www.astrology.com/article/2024-mercury-retrograde-meaning-effects/">
+                <div class="image">
+                    <img src="image/news1.png">
+                </div>
+                <div class="content">
+                    <h4>MERCURY RETROGRADE IN 2024: ASTROLOGY, MEANING & EFFECTS</h4>
+                </div>
+                </a>
+            </div>
+
+            <div class="articles">
+                <a href="https://www.astrology.com/article/psychic-ability/">
+                <div class="image">
+                    <img src="image/news2.png">
+                </div>
+                <div class="content">
+                    <h4>5 WAYS TO STRENGTHEN YOUR PSYCHIC MUSCLES</h4>
+                </div>
+                </a>
+            </div>
+
+            <div class="articles">
+                <a href="https://www.astrology.com/articles/horoscopes/daily-sky-today/december-08-2023">
+                <div class="image">
+                    <img src="image/news3.png">
+                </div>
+                <div class="content">
+                    <h4>WHO HAVE YOU BECOME? USE TODAY’S ASTRAL TRANSITS FOR REFLECTION</h4>
+                </div>
+                </a>
+            </div>
+
+            <div class="articles">
+                <a href="https://www.astrology.com/article/new-moon-affirmations/">
+                <div class="image">
+                    <img src="image/news4.png">
+                </div>
+                <div class="content">
+                    <h4>4 NEW MOON AFFIRMATION EXAMPLES</h4>
+                </div>
+                </a>
+            </div>
+
+        </div>
+    </section>
+    <!-- news end -->
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3><i class="fa-solid fa-moon">Astar</i></h3>
+               
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                </div>
+
+            </div>
+
+            <div class="box">
+
+                <h3>Quick links</h3>
+
+                <a href="#" class="link">Home</a>
+                <a href="#" class="link">About</a>
+                <a href="#" class="link">Astrology</a>
+                <a href="#" class="link">Contact</a>
+            </div>
+            <div class="box">
+                <h3>useful links</h3>
+                <a href="#" class="link">Help</a>
+                <a href="#" class="link">Ask</a>
+                <a href="#" class="link">Send feedback</a>
+                <a href="#" class="link">Term of use</a>
+            </div>
+
+            <div class="box">
+                <h3>Newsletter</h3>
+                <p>Subcribe for latest updates</p>
+                <form class="newsletter" action="">
+                    <input type="email" name="" placeholder="Enter your email" id="" class="email">
+                    <input type="submit" value="subcribe" class="btn">
+                </form>
+            </div>
+        </div>
+        <div class="credit">Created by <span>@automne89</span> | all right reserved!</div>
+        <div id = "progress">
+            <span id="progress-value">&#x1F815;</span>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="Script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
